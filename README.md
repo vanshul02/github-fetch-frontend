@@ -1,5 +1,5 @@
-# GitHub-Fetch API
-API that can fetch a user's details and their public repositories by consuming GitHub API.
+# GitHub-Fetch FrontEnd
+React SPA that can fetch a user's details and their public repositories by consuming GitHub API.
 
 ## Steps to Set-Up
 1. Clone this repository by using: 
