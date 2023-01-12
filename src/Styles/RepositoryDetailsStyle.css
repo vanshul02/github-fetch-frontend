@@ -1,0 +1,31 @@
+h3{
+  margin: 0;
+  color: skyblue;
+}
+
+.repo-details{
+  border: 2px solid black;
+  width: 40%;
+  height: 25vh;
+  padding: 10px;
+  margin-bottom: 3.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.repo-details:hover{
+  cursor: pointer;
+}
+
+.repo-topics{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .repo-details{
+    width: 100%;
+  }
+}

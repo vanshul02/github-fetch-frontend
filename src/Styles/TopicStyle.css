@@ -1,0 +1,13 @@
+.topic{
+  color: white;
+  margin: 2px 4px 2px 4px;
+  border-radius: 0.5rem;
+  padding: 8px;
+  background-color: skyblue;
+}
+
+@media screen and (max-width: 768px) {
+  .topic{
+    padding: 5px;
+  }
+}
