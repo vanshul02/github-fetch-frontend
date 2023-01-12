@@ -20,4 +20,4 @@ npm start
 
 ## Fetch User Details
 - Correct Output:
-<img src="/repository/public/Assets/200Output.jpg" alt="Correct Output"/>
+<img src="/public/Assets/200Output.jpg" alt="Correct Output"/>
