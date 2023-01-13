@@ -10,8 +10,8 @@ const UserDetailsComponent = (props) => {
         <div className='user-details'>
           <div><h2>{props.data.name}</h2></div>
           <div>{props.data.bio}<br/></div>
-          <div><i className="uil uil-location-point"></i>{props.data.location}<br/></div>
-          <div>Twitter: https://www.twitter.com/{props.data.twitter_username}</div>
+          {props.data.location && <div><i className="uil uil-location-point"></i>{props.data.location}<br/></div>}
+          {props.data.twitter_username && <div>Twitter: https://www.twitter.com/{props.data.twitter_username}</div>}
         </div>
       </div>
       <div className='user-link'>
