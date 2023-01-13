@@ -1,5 +1,6 @@
 # GitHub-Fetch FrontEnd
-React SPA that can fetch a user's details and their public repositories by consuming GitHub API.
+React SPA that can fetch a user's details and their public repositories by consuming GitHub API.<br/>
+Deployed Link: <https://github-fetch-eta.vercel.app>
 
 ## Steps to Set-Up
 1. Clone this repository by using: 
@@ -19,5 +20,6 @@ npm start
 1. **`/user/:user_id`**: Fetch User Details
 
 ## Fetch User Details
+- Example Request: <https://github-fetch-eta.vercel.app/user/vanshul02>
 - Correct Output:
 <img src="/public/Assets/200Output.jpg" alt="Correct Output"/>
